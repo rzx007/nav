@@ -408,6 +408,12 @@ export const NAV_DATA: NavData[] = [
         link: 'https://turbo.build'
       },
       {
+        icon: 'https://docs.rome.tools/img/favicon.png',
+        title: 'Rome',
+        desc: 'Rome is a unified linter',
+        link: 'https://rome.tools/'
+      },
+      {
         icon: 'https://www.babeljs.cn/img/favicon.png',
         title: 'Babel',
         desc: 'Babel 是一个 JavaScript 编译器',
