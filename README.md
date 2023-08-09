@@ -10,11 +10,6 @@
 
 ---
 
-## 预览地址
-
-- <https://fe-nav.netlify.app/nav/>
-- <https://maomao1996.github.io/vitepress-nav-template/nav/>
-
 ## 功能
 
 - 新增 `layout-class` 方便更好的自定义样式
