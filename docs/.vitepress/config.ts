@@ -4,7 +4,7 @@ import { head, nav, sidebar } from './configs'
 
 export default defineConfig({
   outDir: '../dist',
-  base: './',
+  base: '/nav',
 
   lang: 'zh-CN',
   title: 'ZeroToHero',
