@@ -12,11 +12,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maomao1996/vitepress-nav-template.git"
+    "url": "git+https://github.com/rzx007/nav.git"
   },
   "author": "maomao1996 <1714487678@qq.com>",
   "license": "MIT",
-  "homepage": "https://github.com/maomao1996/vitepress-nav-template#readme",
+  "homepage": "https://github.com/rzx007/nav.git#readme",
   "devDependencies": {
     "@femm/prettier": "^1.0.2",
     "@femm/verify-commit": "^1.0.1",
