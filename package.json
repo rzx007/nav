@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vitepress dev docs --port=8732",
     "build": "vitepress build docs",
-    "build:github": "cross-env APP_BASE_PATH=/vitepress-nav-template/ vitepress build docs",
+    "build:github": "cross-env APP_BASE_PATH=/vitepress-nav/ vitepress build docs",
     "prepare": "husky install",
     "format": "prettier --write ."
   },
@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/rzx007/nav.git"
   },
-  "author": "maomao1996 <1714487678@qq.com>",
+  "author": "rzx007",
   "license": "MIT",
   "homepage": "https://github.com/rzx007/nav.git#readme",
   "devDependencies": {
