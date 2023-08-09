@@ -1,5 +1,5 @@
 {
-  "name": "vitepress-nav-template",
+  "name": "vitepress-nav",
   "version": "1.0.0",
   "description": "基于 VitePress 打造个人前端导航网站",
   "private": true,
@@ -19,7 +19,7 @@
   "homepage": "https://github.com/rzx007/nav.git#readme",
   "devDependencies": {
     "@femm/prettier": "^1.0.2",
-    "@femm/verify-commit": "^1.0.1",
+
     "@mdit-vue/shared": "^0.12.0",
     "@types/node": "^18.16.3",
     "cross-env": "^7.0.3",

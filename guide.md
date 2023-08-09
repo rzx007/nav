@@ -8,7 +8,7 @@
 
 这里指前端导航页访问的初始页面。
 
-![](/docs/public/index-example.webp)
+![](/docs/public/p1.png)
 
 ### 1.主体部分
 
@@ -23,10 +23,10 @@ hero:
   tagline: 使用 VitePress 打造个人前端导航  //第三行小注内容
   image:
     src: /logo.png //页面大图地址（图像最好切圆后使用）
-    alt: 茂茂物语
+    alt: logo
   actions:  //跳转按钮，可按需增减
     - text: 前端导航
-      link: /nav/
+      link: /navs/
       theme: alt  //此行代表跳转至新标签页显示
 features:
   - icon: 📖  //图标（输入法的表情icon即可）
@@ -55,7 +55,7 @@ export const nav: DefaultTheme.Config['nav'] = [
 ```ts
 export default defineConfig({
     ---
-    socialLinks: [{ icon: 'github', link: 'https://github.com/maomao1996/vitepress-nav-template' }], //社交链接
+    socialLinks: [{ icon: 'github', link: 'https://github.com/rzx007/nav' }], //社交链接
 
     footer: {
       message: '如有转载或 CV 的请标注本站原文地址',
@@ -66,9 +66,7 @@ export default defineConfig({
 
 ## 二、站点列表页
 
-一般对应 `https://域名(ip)/nav`
-
-![](/docs/public/Nav-example.webp)
+![](/docs/public/p2.png)
 
 ### 1.站点列表数据
 
@@ -137,7 +135,7 @@ Nav 页本身属于 MD 文件渲染，因此除引用的 data 文件用于数据
 <br />
 
 ::: tip
-该导航由 [maomao](https://github.com/maomao1996) 开发，如有引用、借鉴的请保留版权声明：<https://github.com/maomao1996/vitepress-nav-template>
+这是Notes提示块
 :::  //引用Notes提示块
 ```
 
@@ -181,5 +179,3 @@ export default defineConfig({
 ```
 
 ---
-
-（本文档作者：[@轻虹空雨](https://github.com/MuFeng086)）

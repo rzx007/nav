@@ -11,7 +11,7 @@ hero:
     alt: logo
   actions:
     - text: 前端导航
-      link: /nav/
+      link: /navs/
 
     # - text: mmPlayer
     #   link: https://netease-music.fe-mm.com
