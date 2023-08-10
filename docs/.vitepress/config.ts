@@ -32,7 +32,7 @@ export default defineConfig({
       level: 'deep',
       label: '本页目录'
     },
-    socialLinks: [{ icon: 'github', link: 'https://github.com/maomao1996/vitepress-nav-template' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/rzx007/nav.git' }],
 
     footer: {
       message: '如有转载或 CV 的请标注本站原文地址',
