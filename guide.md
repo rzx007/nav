@@ -44,7 +44,7 @@ features:
 
 ```ts
 export const nav: DefaultTheme.Config['nav'] = [
-  { text: '个人主页', link: '/' }, //切行无影响
+  { text: '个人主页', link: '/' } //切行无影响
 ]
 ```
 

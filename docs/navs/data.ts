@@ -341,7 +341,7 @@ export const NAV_DATA: NavData[] = [
         title: 'Midway',
         desc: 'Midway Node.js Framework For Full-stack TypeScript Development',
         link: 'http://midwayjs.org/'
-      },
+      }
     ]
   },
   {

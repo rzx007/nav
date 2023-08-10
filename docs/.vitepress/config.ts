@@ -32,7 +32,6 @@ export default defineConfig({
       level: 'deep',
       label: '本页目录'
     },
-
     socialLinks: [{ icon: 'github', link: 'https://github.com/maomao1996/vitepress-nav-template' }],
 
     footer: {
@@ -50,3 +49,4 @@ export default defineConfig({
     }
   }
 })
+

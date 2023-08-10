@@ -13,9 +13,9 @@ hero:
     - text: 前端导航
       link: /navs/
 
-    # - text: mmPlayer
-    #   link: https://netease-music.fe-mm.com
-    #   theme: alt
+    - text: HTML DOM
+      link: /html-dom/select-the-children-of-an-element
+      theme: alt
 features:
   - icon: 📖
     title: 前端知识
