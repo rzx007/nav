@@ -1,6 +1,6 @@
 import type { DefaultTheme } from 'vitepress'
 
-export const nav: DefaultTheme.Config['nav'] = [
+export const nav: DefaultTheme.NavItem[] = [
   { text: '个人主页', link: '/' },
   {
     text: 'Reference',

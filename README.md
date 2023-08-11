@@ -17,3 +17,5 @@
 - 自带前端导航模块
 - 支持日夜颜色模式自适应切换
 - 支持 Github Pages 直接部署上线
+
+> 样式灵感来[UnoCSS](https://unocss.dev/)
