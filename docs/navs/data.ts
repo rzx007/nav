@@ -535,6 +535,12 @@ export const NAV_DATA: NavData[] = [
         title: 'ES6 入门教程',
         desc: '阮一峰的网络日志',
         link: 'http://es6.ruanyifeng.com'
+      },
+      {
+        icon: 'https://www.tslang.cn/assets/images/icons/apple-touch-icon-180x180.png',
+        title: 'TypeScript',
+        desc: 'TypeScript是JavaScript类型的超集, 它可以编译成纯JavaScript',
+        link: 'https://www.tslang.cn/'
       }
     ]
   },
@@ -589,7 +595,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: '工具&&资源网站',
+    title: '工具&资源网站',
     items: [
       {
         icon: 'https://caniuse.com/img/favicon-128.png',
