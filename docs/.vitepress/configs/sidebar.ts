@@ -33,6 +33,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: '获取元素的第一个可滚动父元素', link: '/html-dom/get-the-first-scrollable-parent-of-an-element' },
         { text: '动态加载 JavaScript 文件', link: '/html-dom/load-a-JavaScript-file-dynamically' },
         { text: '从剪贴板粘贴图像', link: '/html-dom/paste-an-image-from-the-clipboard' },
+        { text: 'Canvas API 截取图片的一部分', link: '/html-dom/canvas-shotimg' },
       ]
     },
     {
