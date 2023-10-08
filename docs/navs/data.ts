@@ -234,6 +234,89 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
+    title: 'JavaScript 运行时',
+    items: [
+      {
+        icon: '/icons/nodejs.svg',
+        title: 'Node.js',
+        desc: 'Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境',
+        link: 'https://nodejs.org/zh-cn'
+      },
+      {
+        icon: '/icons/logo.svg',
+        title: 'Deno',
+        desc: '下一代Nodejs, 最简单，最安全的JavaScript运行时',
+        link: 'https://deno.land/'
+      },
+      {
+        icon: '/icons/bun.svg',
+        title: 'Deno',
+        desc: 'Bun, 最简单，最安全的JavaScript运行时',
+        link: 'https://bun.sh/'
+      },
+    ]
+  },
+  {
+    title: 'Node 相关',
+    items: [
+     
+      {
+        icon: 'https://d33wubrfki0l68.cloudfront.net/e937e774cbbe23635999615ad5d7732decad182a/26072/logo-small.ede75a6b.svg',
+        title: 'Nest.js 中文文档',
+        desc: '用于构建高效且可伸缩的服务端应用程序的渐进式 Node.js 框架',
+        link: 'https://docs.nestjs.cn'
+      },
+      {
+        icon: 'https://expressjs.com/images/favicon.png',
+        title: 'Express',
+        desc: '基于 Node.js 平台，快速、开放、极简的 Web 开发框架',
+        link: 'https://expressjs.com'
+      },
+      {
+        icon: '/icons/koa.svg',
+        title: 'Koa',
+        desc: '基于 Node.js 平台的下一代 web 开发框架',
+        link: 'https://koajs.com'
+      },
+      {
+        icon: 'https://www.eggjs.org/favicon.png',
+        title: 'Egg',
+        desc: '为企业级框架和应用而生',
+        link: 'https://www.eggjs.org/zh-CN'
+      },
+      {
+        icon: 'http://midwayjs.org/img/logo.svg',
+        title: 'Midway',
+        desc: 'Midway Node.js Framework For Full-stack TypeScript Development',
+        link: 'http://midwayjs.org/'
+      },
+      {
+        icon: 'https://nodejstoolbox.com/logo-background.png',
+        title: 'Node.js Toolbox',
+        desc: 'Find actively maintained and popular libraries in the Node.js ecosystem',
+        link: 'https://nodejstoolbox.com/'
+      },
+      {
+        icon: '/icons/fresh.png',
+        title: 'Fresh',
+        desc: '基于Deno的下一代web框架',
+        link: 'https://fresh.deno.dev/'
+      },
+      {
+        icon: '/icons/logo.svg',
+        title: 'Danet',
+        desc: 'Deno生态的NestJs',
+        link: 'https://savory.github.io/Danet/'
+      },
+      {
+        icon: '/icons/Elysia.png',
+        title: 'ElysiaJS',
+        desc: 'ElysiaJS is a fast, and friendly Bun web framework.',
+        link: 'https://elysiajs.com/'
+      }
+    ]
+  },
+  {
     title: 'CSS 相关',
     items: [
       {
@@ -291,71 +374,7 @@ export const NAV_DATA: NavData[] = [
   //     }
   //   ]
   // },
-  {
-    title: 'Node 相关',
-    items: [
-      {
-        icon: '/icons/nodejs.svg',
-        title: 'Node.js',
-        desc: 'Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境',
-        link: 'https://nodejs.org/zh-cn'
-      },
-      {
-        icon: 'https://d33wubrfki0l68.cloudfront.net/e937e774cbbe23635999615ad5d7732decad182a/26072/logo-small.ede75a6b.svg',
-        title: 'Nest.js 中文文档',
-        desc: '用于构建高效且可伸缩的服务端应用程序的渐进式 Node.js 框架',
-        link: 'https://docs.nestjs.cn'
-      },
-      {
-        icon: 'https://expressjs.com/images/favicon.png',
-        title: 'Express',
-        desc: '基于 Node.js 平台，快速、开放、极简的 Web 开发框架',
-        link: 'https://expressjs.com'
-      },
-      {
-        icon: '/icons/koa.svg',
-        title: 'Koa',
-        desc: '基于 Node.js 平台的下一代 web 开发框架',
-        link: 'https://koajs.com'
-      },
-      {
-        icon: 'https://www.eggjs.org/favicon.png',
-        title: 'Egg',
-        desc: '为企业级框架和应用而生',
-        link: 'https://www.eggjs.org/zh-CN'
-      },
-      {
-        icon: 'http://midwayjs.org/img/logo.svg',
-        title: 'Midway',
-        desc: 'Midway Node.js Framework For Full-stack TypeScript Development',
-        link: 'http://midwayjs.org/'
-      },
-      {
-        icon: 'https://nodejstoolbox.com/logo-background.png',
-        title: 'Node.js Toolbox',
-        desc: 'Find actively maintained and popular libraries in the Node.js ecosystem',
-        link: 'https://nodejstoolbox.com/'
-      },
-      {
-        icon: '/icons/logo.svg',
-        title: 'Deno',
-        desc: '下一代Nodejs, 最简单，最安全的JavaScript运行时',
-        link: 'https://deno.land/'
-      },
-      {
-        icon: '/icons/fresh.png',
-        title: 'Fresh',
-        desc: '基于Deno的下一代web框架',
-        link: 'https://fresh.deno.dev/'
-      },
-      {
-        icon: '/icons/logo.svg',
-        title: 'Danet',
-        desc: 'Deno生态的NestJs',
-        link: 'https://savory.github.io/Danet/'
-      }
-    ]
-  },
+
   {
     title: '可视化',
     items: [
@@ -432,10 +451,10 @@ export const NAV_DATA: NavData[] = [
         link: 'https://turbo.build'
       },
       {
-        icon: 'https://docs.rome.tools/img/favicon.png',
-        title: 'Rome',
-        desc: 'Rome is a unified linter',
-        link: 'https://rome.tools/'
+        icon: '/icons/Biome.png',
+        title: 'Biome',
+        desc: 'Format, lint, and more in a fraction of a second.',
+        link: 'https://biomejs.dev/'
       },
       {
         icon: 'https://www.babeljs.cn/img/favicon.png',
