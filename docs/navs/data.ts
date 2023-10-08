@@ -225,12 +225,18 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.solidjs.com/'
       },
       {
+        icon: 'https://nuejs.org/global/logo/n.svg',
+        title: 'Nue',
+        desc: '使用更简洁的代码构建用户界面。React、Vue 和 Svelte 的替代品',
+        link: 'https://nuejs.org/'
+      },
+      {
         // icon: 'https://simpleicons.org/icons/jquery.svg',
         icon: '/icons/jquery.svg',
         title: 'jQuery API 中文文档',
         desc: '一个兼容多浏览器的 JavaScript 框架',
         link: 'https://jquery.cuishifeng.cn'
-      }
+      },
     ]
   },
   {
