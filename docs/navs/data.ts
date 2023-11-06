@@ -100,6 +100,12 @@ export const NAV_DATA: NavData[] = [
         link: 'https://vuetifyjs.com/zh-Hans/'
       },
       {
+        icon: 'https://primevue.org/favicon.ico',
+        title: 'PrimeVue',
+        desc: '最完整的 Vue.js UI 套件',
+        link: 'https://primevue.org/'
+      },
+      {
         icon: 'https://static.tdesign.tencent.com/vue-next/favicon.ico',
         title: 'TDesign',
         desc: '腾讯出品的 Vue 组件。',
