@@ -33,6 +33,11 @@ export const NAV_DATA: NavData[] = [
         icon: 'https://www.langui.dev/favicon.ico',
         title: 'LangUI',
         link: 'https://www.langui.dev/'
+      },
+      {
+        icon: 'https://acd-assets.alicdn.com/acd_work/tongyi/favicon.ico',
+        title: '阿里通义',
+        link: 'https://tongyi.aliyun.com/'
       }
     ]
   },
@@ -262,7 +267,7 @@ export const NAV_DATA: NavData[] = [
       },
       {
         icon: '/icons/bun.svg',
-        title: 'Deno',
+        title: 'Bun',
         desc: 'Bun, 最简单，最安全的JavaScript运行时',
         link: 'https://bun.sh/'
       },
@@ -271,7 +276,7 @@ export const NAV_DATA: NavData[] = [
   {
     title: 'Node 相关',
     items: [
-     
+
       {
         icon: 'https://d33wubrfki0l68.cloudfront.net/e937e774cbbe23635999615ad5d7732decad182a/26072/logo-small.ede75a6b.svg',
         title: 'Nest.js 中文文档',
