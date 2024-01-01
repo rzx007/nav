@@ -27,6 +27,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
     },
     {
       text: '中度',
+      collapsed: false,
       items: [
         { text: '自动调整文本框的宽度以适合其内容', link: '/html-dom/input-auto-fit.md' },
         { text: '将表导出为 csv', link: '/html-dom/export-a-table-to-csv' },
@@ -38,6 +39,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
     },
     {
       text: '困难',
+      collapsed: false,
       items: [
         { text: '显示或隐藏表列', link: '/html-dom/show-or-hide-table-columns' },
         { text: '复制高亮代码到剪贴板', link: '/html-dom/copy-highlighted-code-to-the-clipboard' },
