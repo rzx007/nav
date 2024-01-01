@@ -99,5 +99,5 @@ node http-server.js
 
 这将启动一个简单的 HTTP 服务器，并在端口 9000 上监听请求。你可以通过在浏览器中输入以下 URL 来访问服务器上的页面：
 
-- http://localhost:9000
-- http://localhost:9000/chat.html
+<!-- - http://localhost:9000 -->
+<!-- - http://localhost:9000/chat.html -->
