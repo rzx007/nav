@@ -1,7 +1,7 @@
 # 创建一个简单的 HTTP 服务器
 
 ::: info
-在本教程中，我们将创建一个简单的 HTTP 服务器，并使用 Node.js 的`http`模块来处理请求。
+在本教程中，我们将创建一个还算可以的的 HTTP 服务器，并使用 Node.js 的`http`模块来处理请求。
 :::
 
 ### 步骤 1：安装 Node.js
@@ -13,65 +13,82 @@
 创建一个名为`http-server.js`的文件，并在其中输入以下代码：
 
 ```javascript
-import fs from 'fs'
-import http from 'http'
-import path from 'path'
-import url from 'url'
+import { readFile, accessSync, constants } from 'fs'
+import { createServer } from 'http'
+import { join, normalize, resolve, extname } from 'path'
 
-// Local port for http server to listen on
-const PORT = 9000
-
+const port = 9000
+const directoryName = './public'
 
 // Maps file extention to MIME types
-// Full list can be found here: https://www.freeformatter.com/mime-types-list.html
-const mimeType = {
-  '.html': 'text/html',
-  '.js': 'text/javascript',
-  '.mjs': 'text/javascript',
-  '.css': 'text/css'
+// 完整的 MIME 类型列表: https://www.freeformatter.com/mime-types-list.html
+const types = {
+  html: 'text/html',
+  css: 'text/css',
+  js: 'application/javascript',
+  png: 'image/png',
+  jpg: 'image/jpeg',
+  jpeg: 'image/jpeg',
+  gif: 'image/gif',
+  json: 'application/json',
+  xml: 'application/xml'
 }
 
-http
-  .createServer((req, res) => {
-    console.log(`  ${req.method} ${req.url}`)
+const root = normalize(resolve(directoryName))
 
-    // Parse URL
-    const parsedUrl = url.parse(req.url)
+const server = createServer((req, res) => {
+  console.log(`${req.method} ${req.url}`)
 
-    // Extract URL path
-    // Avoid https://en.wikipedia.org/wiki/Directory_traversal_attack
-    let sanitizedPath = path
-      .normalize(parsedUrl.pathname)
-      .replace(/^(\.\.[\/\\])+/, '')
-      .substring(1)
+  const extension = extname(req.url).slice(1)
+  const type = extension ? types[extension] : types.html
+  const supportedExtension = Boolean(type)
 
-    if (sanitizedPath === '') {
-      sanitizedPath = 'index.html'
-    }
+  // 不支持的文件类型
+  if (!supportedExtension) {
+    res.writeHead(404, { 'Content-Type': 'text/html' })
+    res.end('404: File not found')
+    return
+  }
 
-    // based on the URL path, extract the file extention. e.g. .js, .doc, ...
-    const ext = path.parse(sanitizedPath).ext
-
+  let fileName = req.url
+  // 首页
+  if (req.url === '/') fileName = 'index.html'
+  else if (!extension) {
+    // 访问路径没有后缀，尝试添加.html后缀,文件存不存在，否则首页
     try {
-      const data = fs.readFileSync(sanitizedPath)
+      accessSync(join(root, req.url + '.html'), constants.F_OK)
+      fileName = req.url + '.html'
+    } catch (e) {
+      fileName = join(req.url, 'index.html')
+    }
+  }
 
-      // If the file is found, set Content-Type and send data
-      if (mimeType[ext]) {
-        res.setHeader('Content-Type', mimeType[ext])
-      }
+  // 检查访问的文件是否在root目录之下, 防止访问到其他目录
+  const filePath = join(root, fileName)
+  const isPathUnderRoot = normalize(resolve(filePath)).startsWith(root)
+
+  if (!isPathUnderRoot) {
+    res.writeHead(404, { 'Content-Type': 'text/html' })
+    res.end('404: File not found')
+    return
+  }
+
+  readFile(filePath, (err, data) => {
+    if (err) {
+      res.writeHead(404, { 'Content-Type': 'text/html' })
+      res.end('404: File not found')
+    } else {
+      res.writeHead(200, { 'Content-Type': type })
       res.end(data)
-    } catch (err) {
-      // If the file is not found, return 404
-      res.statusCode = 404
-      res.end()
     }
   })
-  .listen(parseInt(PORT))
+})
 
-console.log(
-  `Server listening. Pages:\n - http://localhost:${PORT}\n - http://localhost:${PORT}/chat.html`
-)
+server.listen(port, () => {
+  console.log(`Server is listening on port ${port}`)
+})
 ```
+
 ### 步骤 3：运行服务器
 
 在命令行中，运行以下命令：
