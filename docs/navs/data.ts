@@ -480,6 +480,12 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.babeljs.cn'
       },
       {
+        icon: '',
+        title: 'tsup',
+        desc: 'Bundle your TypeScript library with no config, powered by esbuild.',
+        link: 'https://tsup.egoist.dev/'
+      },
+      {
         icon: 'https://esbuild.github.io/favicon.svg',
         title: 'esbuild',
         desc: 'An extremely fast bundler for the web',
