@@ -38,6 +38,11 @@ export const NAV_DATA: NavData[] = [
         icon: 'https://acd-assets.alicdn.com/acd_work/tongyi/favicon.ico',
         title: '阿里通义',
         link: 'https://tongyi.aliyun.com/'
+      },
+      {
+        icon: 'https://chat-preview.lobehub.com/_next/image?url=https%3A%2F%2Fregistry.npmmirror.com%2F%40lobehub%2Fassets-logo%2F1.1.0%2Ffiles%2Fassets%2Flogo-3d.webp&w=48&q=75',
+        title: 'LobeChat',
+        link: 'https://chat-preview.lobehub.com/welcome'
       }
     ]
   },
@@ -87,7 +92,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://element-plus.org'
       },
       {
-        icon: 'https://www.naiveui.com/assets/naivelogo-93278402.svg',
+        icon: '/icons/naivelogo-XQ1U1Js8.svg',
         title: 'Naive UI',
         desc: '一个 Vue 3 组件库比较完整，主题可调，使用 TypeScript，快有点意思',
         link: 'https://www.naiveui.com/zh-CN/os-theme'
@@ -158,6 +163,12 @@ export const NAV_DATA: NavData[] = [
         link: 'https://remix.run/'
       },
       {
+        icon: 'https://docs.pmnd.rs/apple-touch-icon.png',
+        title: 'Pmndrs.docs',
+        desc: '一个包含集合react库的的导航站, 包括Zustand, Valtio, Jotai等',
+        link: 'https://docs.pmnd.rs/'
+      },
+      {
         icon: 'https://img.alicdn.com/tfs/TB1YHEpwUT1gK0jSZFhXXaAtVXa-28-27.svg',
         title: 'UmiJS',
         desc: '插件化的企业级前端应用框架',
@@ -174,6 +185,24 @@ export const NAV_DATA: NavData[] = [
         title: 'Ant Design Mobile',
         desc: '构建移动 WEB 应用程序的 React 组件库',
         link: 'https://mobile.ant.design'
+      },
+      {
+        icon: '/icons/mui.svg',
+        title: 'Material UI',
+        desc: '基于 Google Material Design 设计语言的 React 组件库',
+        link: 'https://mui.com/'
+      },
+      {
+        icon: '/icons/mantine.svg',
+        title: 'Mantine UI',
+        desc: '一套功能齐全的 React 组件库',
+        link: 'https://mantine.dev/'
+      },
+      {
+        icon: 'https://ui.shadcn.com/apple-touch-icon.png',
+        title: 'shadcn/ui',
+        desc: '设计精美的组件,你可以直接复制和粘贴到你的应用中',
+        link: 'https://ui.shadcn.com/'
       },
       {
         icon: 'https://docs.pmnd.rs/apple-touch-icon.png',
@@ -213,7 +242,23 @@ export const NAV_DATA: NavData[] = [
       }
     ]
   },
-
+  {
+    title: '有意思的库',
+    items: [
+      {
+        icon: 'https://swiperjs.com/images/swiper-logo.svg',
+        title: 'Swiper',
+        desc: '最现代的移动触摸Swiper',
+        link: 'https://swiperjs.com/'
+      },
+      {
+        icon: 'https://auto-animate.formkit.com/assets/favicon.6d15a86f.ico',
+        title: 'AutoAnimate',
+        desc: 'AutoAnimate 是一个零配置的插入式动画实用程序， React、Solid、Vue、Svelte 或任何其他框架。',
+        link: 'https://auto-animate.formkit.com/'
+      }
+    ]
+  },
   {
     title: 'JavaScript 框架类库',
     items: [
@@ -550,10 +595,46 @@ export const NAV_DATA: NavData[] = [
         link: 'https://iconpark.oceanengine.com/official'
       },
       {
+        icon: '/icons/iconify.png',
+        title: 'Iconify',
+        desc: '一个开源的图标集合和图标工具',
+        link: 'https://iconify.design/'
+      },
+      {
+        icon: 'https://icones.js.org/favicon.svg',
+        title: 'Icônes',
+        desc: '基于 Iconify 的图标浏览器',
+        link: 'https://icones.js.org/'
+      },
+      {
+        icon: 'https://heroicons.com/_next/static/media/favicon-32x32.2a23e45f.png',
+        title: 'heroicons',
+        desc: 'Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS.',
+        link: 'https://heroicons.com/'
+      },
+      {
+        icon: 'https://lucide.dev/logo.light.svg',
+        title: 'lucide',
+        desc: 'Beautiful & consistent icons',
+        link: 'https://lucide.dev/'
+      },
+      {
+        icon: 'https://svgl.app/images/logo.svg',
+        title: 'svgl',
+        desc: 'A beautiful library with SVG logos. Built with Sveltekit & Tailwind CSS',
+        link: 'https://svgl.app/'
+      },
+      {
         icon: 'https://emoji.muan.co/appicon.png',
         title: 'Emoji searcher',
         desc: 'Emoji 表情大全',
-        link: ''
+        link: 'https://emoji.muan.co/'
+      },
+      {
+        icon: 'https://gitmoji.dev/static/apple-icon-144x144.png',
+        title: 'gitmoji',
+        desc: '可以在 git 中使用的 emoji 表情',
+        link: 'https://gitmoji.dev/'
       }
     ]
   },
