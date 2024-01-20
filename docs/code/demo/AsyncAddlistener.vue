@@ -25,7 +25,7 @@ onMounted(() => {
     const btn = getElement('#btn')
     while (1) {
       await btn.waitClick;
-      console.log('click')
+      alert('click')
     }
   })()
 })
