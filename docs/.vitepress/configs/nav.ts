@@ -13,6 +13,25 @@ export const nav: DefaultTheme.NavItem[] = [
   //   activeMatch: '^/fe'
   // },
   {
+    text: '提效工具',
+    items: [
+      {
+        text: '软件推荐与配置',
+        items: [
+          { text: '多平台软件', link: '/efficiency/software/cross-platform' },
+          { text: 'Mac 平台', link: '/efficiency/software/mac' },
+          { text: 'Windows 平台', link: '/efficiency/software/windows' },
+          { text: '浏览器设置与扩展', link: '/efficiency/software/browser' },
+          { text: 'Visual Studio Code 配置', link: '/efficiency/software/vscode' },
+          { text: 'WebStorm 配置', link: '/efficiency/software/webstorm' }
+        ]
+      },
+      { text: '在线工具', link: '/efficiency/online-tools' },
+      { text: '书签脚本', link: '/efficiency/bookmark-scripts' }
+    ],
+    activeMatch: '^/efficiency'
+  },
+  {
     text: 'Reference',
     link: 'https://wangchujiang.com/reference/index.html'
   },
@@ -20,6 +39,7 @@ export const nav: DefaultTheme.NavItem[] = [
     text: 'vue3-resource',
     link: 'https://hu-snail.github.io/vue3-resource/'
   },
+
   {
     text: '日常笔记',
     link: 'https://rzx007.github.io/docs/'
