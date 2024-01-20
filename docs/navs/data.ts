@@ -30,11 +30,6 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.beautiful.ai'
       },
       {
-        icon: 'https://www.langui.dev/favicon.ico',
-        title: 'LangUI',
-        link: 'https://www.langui.dev/'
-      },
-      {
         icon: 'https://acd-assets.alicdn.com/acd_work/tongyi/favicon.ico',
         title: '阿里通义',
         link: 'https://tongyi.aliyun.com/'
@@ -43,6 +38,11 @@ export const NAV_DATA: NavData[] = [
         icon: 'https://chat-preview.lobehub.com/_next/image?url=https%3A%2F%2Fregistry.npmmirror.com%2F%40lobehub%2Fassets-logo%2F1.1.0%2Ffiles%2Fassets%2Flogo-3d.webp&w=48&q=75',
         title: 'LobeChat',
         link: 'https://chat-preview.lobehub.com/welcome'
+      },
+      {
+        icon: '/icons/chatgpt.png',
+        title: 'Free ChatGPT',
+        link: 'https://cc.ai55.cc/'
       }
     ]
   },
@@ -256,7 +256,19 @@ export const NAV_DATA: NavData[] = [
         title: 'AutoAnimate',
         desc: 'AutoAnimate 是一个零配置的插入式动画实用程序， React、Solid、Vue、Svelte 或任何其他框架。',
         link: 'https://auto-animate.formkit.com/'
-      }
+      },
+      {
+        icon: 'https://www.langui.dev/favicon.ico',
+        title: 'LangUI',
+        desc: 'Beautiful components for your AI projects',
+        link: 'https://www.langui.dev/'
+      },
+      {
+        icon: 'https://registry.npmmirror.com/@lobehub/assets-logo/1.1.0/files/assets/logo-3d.webp',
+        title: 'Lobe UI',
+        desc: 'Lobe UI is an open-source UI component library for building AIGC web apps',
+        link: 'https://www.langui.dev/'
+      },
     ]
   },
   {
