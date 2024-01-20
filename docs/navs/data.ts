@@ -40,7 +40,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://chat-preview.lobehub.com/welcome'
       },
       {
-        icon: '/icons/chatgpt.png',
+        icon: '/icons/chatgpt1.png',
         title: 'Free ChatGPT',
         link: 'https://cc.ai55.cc/'
       }
