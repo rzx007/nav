@@ -2,6 +2,7 @@
   "name": "vitepress-nav",
   "version": "1.0.0",
   "description": "基于 VitePress 打造个人前端导航网站",
+  "type": "module",
   "private": true,
   "scripts": {
     "dev": "vitepress dev docs --port=3100",
@@ -30,7 +31,7 @@
     "lint-staged": "^13.2.2",
     "prettier": "^2.8.8",
     "sass": "^1.58.3",
-    "vitepress": "1.0.0-alpha.48",
+    "vitepress": "1.0.0-rc.39",
     "vue": "^3.2.47"
   },
   "prettier": "@femm/prettier",
