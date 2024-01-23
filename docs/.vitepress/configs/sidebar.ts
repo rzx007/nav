@@ -53,6 +53,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: '显示或隐藏表列', link: '/html-dom/show-or-hide-table-columns' },
         { text: '复制高亮代码到剪贴板', link: '/html-dom/copy-highlighted-code-to-the-clipboard' },
         { text: '创建自定义滚动条', link: '/html-dom/create-a-custom-scrollbar' },
+        { text: '数组树形数据相互转换', link: '/html-dom/tree-conver' },
         { text: '基于流式数据的类似 chatgpt 的打字机式输出', link: '/html-dom/server-sent-events' },
         { text: '已同步方式实现事件监听', link: '/html-dom/async-addEventListener' },
         { text: '使用 vue 指令实现一个元素平滑上升的效果', link: '/html-dom/vue-slide-smooth' },

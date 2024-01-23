@@ -1,6 +1,7 @@
 import { h, watch } from 'vue'
 import { useData, EnhanceAppContext } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
+import Comment from '../components/Comment.vue'
 
 import './styles/index.scss'
 
@@ -18,7 +19,9 @@ export default {
       props.class = frontmatter.value.layoutClass
     }
 
-    return h(DefaultTheme.Layout, props)
+    return h(DefaultTheme.Layout, props, {
+      'doc-after': () => h(Comment),
+    })
   },
   enhanceApp({ router }: EnhanceAppContext) {
     if (typeof window !== 'undefined') {
@@ -27,12 +30,12 @@ export default {
         () =>
           updateHomePageStyle(
             /* /vitepress-nav-template/ 是为了兼容 GitHub Pages */
-            location.pathname === '/' || location.pathname === '/vitepress-nav-template/'
+            location.pathname === '/' || location.pathname === '/vitepress-nav-template/',
           ),
-        { immediate: true }
+        { immediate: true },
       )
     }
-  }
+  },
 }
 
 if (typeof window !== 'undefined') {
