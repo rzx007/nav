@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container1">
     <div class="item" v-for="i in 20" :key="i" v-slide-in></div>
   </div>
 </template>
@@ -66,7 +66,7 @@ const vSlideIn = {
 }
 </script>
 <style lang="scss" scoped>
-.container {
+.container1 {
   align-items: center;
   height: 32rem;
   padding: 1rem;
