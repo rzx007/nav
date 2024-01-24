@@ -19,7 +19,7 @@ export const nav: DefaultTheme.NavItem[] = [
         text: '软件推荐与配置',
         items: [
           { text: '多平台软件', link: '/efficiency/software/cross-platform' },
-          { text: 'Mac 平台', link: '/efficiency/software/mac' },
+          // { text: 'Mac 平台', link: '/efficiency/software/mac' },
           { text: 'Windows 平台', link: '/efficiency/software/windows' },
           { text: '浏览器设置与扩展', link: '/efficiency/software/browser' },
           { text: 'Visual Studio Code 配置', link: '/efficiency/software/vscode' },
