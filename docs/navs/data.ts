@@ -267,7 +267,7 @@ export const NAV_DATA: NavData[] = [
         icon: 'https://registry.npmmirror.com/@lobehub/assets-logo/1.1.0/files/assets/logo-3d.webp',
         title: 'Lobe UI',
         desc: 'Lobe UI is an open-source UI component library for building AIGC web apps',
-        link: 'https://www.langui.dev/'
+        link: 'https://ui.lobehub.com/'
       },
     ]
   },
