@@ -39,7 +39,10 @@ export const nav: DefaultTheme.NavItem[] = [
     text: 'vue3-resource',
     link: 'https://hu-snail.github.io/vue3-resource/'
   },
-
+  {
+    text: '书籍',
+    link: ' https://youjia.sx.cn/you-dont-know-ts/'
+  },
   {
     text: '日常笔记',
     link: 'https://rzx007.github.io/docs/'
