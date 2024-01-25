@@ -42,6 +42,23 @@ onMounted(() => {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  padding: 12px 0;
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: url('https://fun.youth.cn/gnzx/202011/W020201119307688300465.jpg');
+    background-size: cover;
+    filter: blur(50px);
+    transform: scale(2);
+  }
   .card-3d {
     position: relative;
     width: 200px;
@@ -65,15 +82,16 @@ onMounted(() => {
       border-radius: inherit;
       inset: 0;
       background: linear-gradient(
-                115deg, 
-                transparent 0%, 
-                rgba(255, 255, 255, 0.5) var(--per,30%),
-                rgba(0, 0, 0, .5) calc(var(--per, 55%) + 25%),
-                rgba(255, 255, 255, .5) calc(var(--per, 80%) + 50%),
-                transparent 100%
-            );
+        115deg,
+        transparent 0%,
+        rgba(255, 255, 255, 0.5) var(--per, 30%),
+        rgba(0, 0, 0, 0.5) calc(var(--per, 55%) + 25%),
+        rgba(255, 255, 255, 0.5) calc(var(--per, 80%) + 50%),
+        transparent 100%
+      );
       mix-blend-mode: color-dodge;
     }
+
     img {
       border-radius: inherit;
       width: 100%;
