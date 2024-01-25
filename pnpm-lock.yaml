@@ -17,7 +17,7 @@ specifiers:
   prettier: ^2.8.8
   prism-theme-vars: ^0.2.4
   prismjs: ^1.29.0
-  sass: ^1.58.3
+  sass: ^1.70.0
   vitepress: 1.0.0-rc.39
   vue: ^3.2.47
 

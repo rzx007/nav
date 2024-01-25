@@ -5,6 +5,7 @@
 :::
 
 <<< @/code/demo/vSlideIn.vue{vue}
+
 ### 示例
 
 <script setup>
