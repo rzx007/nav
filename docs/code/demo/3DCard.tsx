@@ -11,7 +11,7 @@ const style: CSSProperties = {
 }
 // 验证范围
 const validatorFn = (val: Array<number>) => {
-  return val.length === 2 && val[0] < -90 && val[1] < 90
+  return val.length === 2 && val[0] > -90 && val[1] < 90
 }
 export const Card3D = defineComponent({
   name: 'Card3D',
