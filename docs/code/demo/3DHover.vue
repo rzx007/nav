@@ -62,6 +62,7 @@ onMounted(() => {
       content: '';
       display: none;
       position: absolute;
+      border-radius: inherit;
       inset: 0;
       background: linear-gradient(
                 115deg, 
