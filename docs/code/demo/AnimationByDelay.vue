@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="an-container">
     <div class="ball" ref="ballRef"></div>
     <input type="range" min="0" max="1" step="0.01" v-model="range" @input="changeFn">
   </div>
@@ -17,7 +17,7 @@ onMounted(() => {
 })
 </script>
 <style>
-.container {
+.an-container {
   position: relative;
   width: 100px;
   height: 100px;

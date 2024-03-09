@@ -23,6 +23,7 @@ onMounted(() => {
 })
 </script>
 <style lang="scss" scoped>
+
 .container {
   align-items: center;
   display: flex;
@@ -47,6 +48,16 @@ onMounted(() => {
     margin-top: 1rem;
     max-height: 16rem;
     max-width: 42rem;
+  }
+}
+.dark {
+  .container {
+    background-color: #2d3748;
+    border-color: #4a5568;
+    .key {
+      background-color: #2d3748;
+      border-color: #4a5568;
+    }
   }
 }
 </style>
