@@ -27,7 +27,7 @@ const svg = computed(() => {
 
 <template>
   <a v-if="link" class="m-nav-link" :href="link" target="_blank" rel="noreferrer">
-    <article class="box">
+    <article class="box" :style="{ '--vp-box-bg': `url(${withBase(icon)})` }">
       <div class="box-header">
         <div v-if="svg" class="icon" v-html="svg"></div>
         <div v-else-if="icon && typeof icon === 'string'" class="icon">
@@ -39,13 +39,14 @@ const svg = computed(() => {
         </div>
         <h5 v-if="title" :id="formatTitle" class="title">{{ title }}</h5>
       </div>
-      <p v-if="desc" class="desc">{{ desc }}</p>
+      <p v-if="desc" class="desc" :title="desc">{{ desc }}</p>
     </article>
   </a>
 </template>
 
 <style lang="scss" scoped>
 .m-nav-link {
+  --vp-box-bg: url('https://pinia.vuejs.org/logo.svg');
   --m-nav-icon-box-size: 40px;
   --m-nav-icon-size: 24px;
   --m-nav-box-gap: 12px;
@@ -57,6 +58,7 @@ const svg = computed(() => {
   background-color: var(--vp-c-bg-soft);
   transition: all 0.25s;
   text-decoration: none;
+  overflow: hidden;
   &:hover {
     box-shadow: var(--vp-shadow-2);
     border-color: var(--vp-c-brand);
@@ -70,9 +72,23 @@ const svg = computed(() => {
     padding: var(--m-nav-box-gap);
     height: 100%;
     color: var(--vp-c-text-1);
+    position: relative;
     &-header {
       display: flex;
       align-items: center;
+    }
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: -1;
+      background-image: var(--vp-box-bg);
+      background-size: cover;
+      filter: blur(50px);
+      transform: scale(1.8);
     }
   }
 

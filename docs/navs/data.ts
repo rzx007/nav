@@ -537,7 +537,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://turbo.build'
       },
       {
-        icon: '/icons/Biome.png',
+        icon: '/icons/Biome.svg',
         title: 'Biome',
         desc: 'Format, lint, and more in a fraction of a second.',
         link: 'https://biomejs.dev/'
@@ -549,22 +549,28 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.babeljs.cn'
       },
       {
-        icon: '',
-        title: 'tsup',
-        desc: 'Bundle your TypeScript library with no config, powered by esbuild.',
-        link: 'https://tsup.egoist.dev/'
-      },
-      {
         icon: 'https://esbuild.github.io/favicon.svg',
         title: 'esbuild',
         desc: 'An extremely fast bundler for the web',
         link: 'https://esbuild.github.io'
       },
       {
+        icon: '',
+        title: 'tsup',
+        desc: 'The simplest and fastest way to bundle your TypeScript libraries, powered by esbuild.',
+        link: 'https://tsup.egoist.dev/'
+      },
+      {
         icon: 'https://swc.rs/favicon/apple-touch-icon.png',
         title: 'SWC',
         desc: 'Rust-based platform for the Web',
         link: 'https://swc.rs'
+      },
+      {
+        icon: '/icons/logo-round-min.png',
+        title: 'Oxc',
+        desc: 'A collection of JavaScript tools written in Rust',
+        link: 'https://oxc-project.github.io/'
       }
     ]
   },
