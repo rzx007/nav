@@ -387,6 +387,18 @@ export const NAV_DATA: NavData[] = [
         title: 'ElysiaJS',
         desc: 'ElysiaJS is a fast, and friendly Bun web framework.',
         link: 'https://elysiajs.com/'
+      },
+      {
+        icon: 'https://nitro.unjs.io/icon.svg',
+        title: 'Nitro',
+        desc: '下一代服务器工具包。创建一个包含您所需的一切的Web服务器，并将其部署到您喜欢的任何位置。',
+        link: 'https://nitro.unjs.com/'
+      },
+      {
+        icon: 'https://bestofjs.org/logos/strapi.svg',
+        title: 'Strapi',
+        desc: '领先的开源Headless CMS。 100% JavaScript / TypeScript，完全可定制。',
+        link: 'https://strapi.io/'
       }
     ]
   },
