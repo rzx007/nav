@@ -27,7 +27,7 @@ const svg = computed(() => {
 
 <template>
   <a v-if="link" class="m-nav-link" :href="link" target="_blank" rel="noreferrer">
-    <article class="box" :style="{ '--vp-box-bg': `url(${withBase(icon)})` }">
+    <article class="box" :style="{ '--vp-box-bg': icon ? `url(${withBase(icon)})` : '' }">
       <div class="box-header">
         <div v-if="svg" class="icon" v-html="svg"></div>
         <div v-else-if="icon && typeof icon === 'string'" class="icon">
