@@ -41,7 +41,11 @@ export const nav: DefaultTheme.NavItem[] = [
   },
   {
     text: '书籍',
-    link: ' https://youjia.sx.cn/you-dont-know-ts/'
+    link: 'https://youjia.sx.cn/you-dont-know-ts/'
+  },
+  {
+    text: 'UnJS',
+    link: 'https://unjs.io/'
   },
   {
     text: '日常笔记',
