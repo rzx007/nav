@@ -98,6 +98,12 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.naiveui.com/zh-CN/os-theme'
       },
       {
+        icon: '/icons/Shacdn-vue.svg',
+        title: 'shadcn-vue',
+        desc: 'vue版本的shadcn/ui，设计精美的组件,你可以直接复制和粘贴到你的应用中。',
+        link: 'https://www.shadcn-vue.com/'
+      },
+      {
         icon: 'https://www.antdv.com/assets/logo.1ef800a8.svg',
         title: 'Ant Design Vue',
         desc: 'Ant Design 的 Vue 实现，开发和服务于企业级后台产品',
@@ -258,6 +264,12 @@ export const NAV_DATA: NavData[] = [
         link: 'https://auto-animate.formkit.com/'
       },
       {
+        icon: '/icons/gsap.png',
+        title: 'GSAP',
+        desc: '一个非常强大的 JavaScript 动画库。专为专业人士打造',
+        link: 'https://gsap.com/'
+      },
+      {
         icon: 'https://www.langui.dev/favicon.ico',
         title: 'LangUI',
         desc: 'Beautiful components for your AI projects',
@@ -268,6 +280,18 @@ export const NAV_DATA: NavData[] = [
         title: 'Lobe UI',
         desc: 'Lobe UI is an open-source UI component library for building AIGC web apps',
         link: 'https://ui.lobehub.com/'
+      },
+      {
+        icon: '/icons/radash.png',
+        title: 'Radash',
+        desc: '功能性工具库 - 现代，简洁，类型化，强大',
+        link: 'https://radash-docs.vercel.app/docs/getting-started'
+      },
+      {
+        icon: 'https://lodash.com/assets/img/lodash.svg',
+        title: 'Lodash',
+        desc: '一个现代的JavaScript实用工具库，提供模块化、性能和额外功能。',
+        link: 'https://lodash.com/'
       },
     ]
   },
