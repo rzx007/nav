@@ -417,6 +417,12 @@ export const NAV_DATA: NavData[] = [
         title: 'Nitro',
         desc: '下一代服务器工具包。创建一个包含您所需的一切的Web服务器，并将其部署到您喜欢的任何位置。',
         link: 'https://nitro.unjs.com/'
+      },
+      {
+        icon: '/icons/hono.ico',
+        title: 'Hono',
+        desc: 'Fast, Lightweight, Web-standards',
+        link: 'https://hono.dev/'
       }
     ]
   },
@@ -537,10 +543,28 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.webpackjs.com'
       },
       {
+        icon: '/icons/rsbuild.png',
+        title: 'Rsbuild',
+        desc: 'Rsbuild 基于 Rspack 的 Web 构建工具, 快速迁移Webpack项目',
+        link: 'https://rsbuild.dev/zh/'
+      },
+      {
         icon: 'https://cn.vitejs.dev/logo.svg',
         title: 'Vite 中文文档',
         desc: '下一代前端工具链',
         link: 'https://cn.vitejs.dev'
+      },
+      {
+        icon: '/icons/rolldown.svg',
+        title: 'Rolldown ',
+        desc: 'Rolldown 基于 Rust 的JS构建工具, Rollup兼容Api, 计划用于替换Vite',
+        link: 'https://rolldown.rs/'
+      },
+      {
+        icon: '/icons/farm.png',
+        title: 'Farm ',
+        desc: 'Farm 是一个基于 Rust 的前端构建工具。开箱即用支持 Vite/Rollup/Unplugin/Swc  插件',
+        link: 'https://www.farmfe.org/zh/'
       },
       {
         icon: 'https://www.rollupjs.com/img/favicon.png',
