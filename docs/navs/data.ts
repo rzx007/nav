@@ -269,6 +269,12 @@ export const NAV_DATA: NavData[] = [
         desc: 'Lobe UI is an open-source UI component library for building AIGC web apps',
         link: 'https://ui.lobehub.com/'
       },
+      {
+        icon: 'https://sf16-scmcdn-sg.ibytedtos.com/obj/static-sg/visactor-site/output/sg/img/favicon.png',
+        title: 'VisActor',
+        desc: 'VisActor ——面向叙事的智能可视化解决方案',
+        link: 'https://visactor.io/'
+      },
     ]
   },
   {
