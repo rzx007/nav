@@ -15,13 +15,11 @@
 5. finally方法
 6. 静态方法 resolve、reject、all、race等
 
-
-
 ### 完整代码
+
 ::: details 点击查看代码
 <<< @/code/demo/Promise.ts
 :::
-
 
 ### 测试
 

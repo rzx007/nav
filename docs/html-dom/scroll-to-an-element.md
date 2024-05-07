@@ -1,4 +1,4 @@
-#滚动元素到可视范围
+# 滚动元素到可视范围
 
 滚动元素到可视范围
 
@@ -7,7 +7,7 @@ ele.scrollIntoView()
 ```
 
 平滑滚动
-The option isn't supported in` IE and Safari.behavior`
+The option isn't supported in`IE and Safari.behavior`
 
 ```js
 ele.scrollIntoView({ behavior: 'smooth' })

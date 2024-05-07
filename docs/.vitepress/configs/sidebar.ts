@@ -45,6 +45,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: '如何不使用`try-catch`处理异步错误', link: '/html-dom/await-to-js' },
         { text: '利用延迟实现复杂动画', link: '/html-dom/annimation-by-delay' },
         { text: '3D卡片悬浮效果', link: '/html-dom/3D-hover-effect' },
+        { text: '可重试的请求', link: '/html-dom/retry-requests' }
       ]
     },
     {
