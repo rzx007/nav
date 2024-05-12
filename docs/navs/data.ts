@@ -299,6 +299,12 @@ export const NAV_DATA: NavData[] = [
         desc: '一个现代的JavaScript实用工具库，提供模块化、性能和额外功能。',
         link: 'https://lodash.com/',
       },
+      {
+        icon: 'https://oxism.com/trystero/images/favicon.png',
+        title: 'Trystero',
+        desc: '构建即时多人 Web 应用程序，无需服务器 — 通过 BitTorrent、Nostr、MQTT、IPFS 和 Firebase 进行 Magic WebRTC 匹配。',
+        link: 'https://oxism.com/trystero/',
+      },
     ],
   },
   {
