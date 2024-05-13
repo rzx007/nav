@@ -144,6 +144,12 @@ export const NAV_DATA: NavData[] = [
         desc: '京东风格的轻量级移动端组件库',
         link: 'https://nutui.jd.com',
       },
+      {
+        icon: 'https://formkit.com/favicon.ico',
+        title: 'FormKit',
+        desc: '适用于 Vue 的 开源 表单框架,使开发人员能够以10倍的速度构建表单。',
+        link: 'https://formkit.com/zh',
+      },
     ],
   },
   {
@@ -251,6 +257,7 @@ export const NAV_DATA: NavData[] = [
         desc: '一套高质量可靠的 React Hooks 库',
         link: 'https://ahooks.js.org/zh-CN',
       },
+
     ],
   },
   {
@@ -315,6 +322,18 @@ export const NAV_DATA: NavData[] = [
         title: 'Pragmatic drag and drop',
         desc: '快速推拽插件，适用于任何技术栈。',
         link: 'https://atlassian.design/components/pragmatic-drag-and-drop/',
+      },
+      {
+        icon: '/icons/tiny-drag-and-drop.svg',
+        title: 'Drag + Drop',
+        desc: '一个小型的数据优先的拖拽库, 支持Vue,React和原生js',
+        link: 'https://atlassian.design/components/pragmatic-drag-and-drop/',
+      },
+      {
+        icon: 'https://tanstack.com/_build/assets/logo-color-600w-Bx4vtR8J.png',
+        title: 'TanStack',
+        desc: "TanStack, '无头'(headless)工具集, 包括数据请求, Form, List, Table等工具, 支持React， Vue",
+        link: 'https://tanstack.com/',
       },
     ],
   },
