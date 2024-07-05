@@ -22,7 +22,7 @@ export default defineConfig({
   /* 主题配置 */
   themeConfig: {
     i18nRouting: false,
-    
+
     search: {
       provider: 'local'
     },
@@ -49,6 +49,13 @@ export default defineConfig({
     docFooter: {
       prev: '上一篇',
       next: '下一篇'
+    }
+  },
+  /* vite配置 */
+  vite: {
+    server: {
+      host: true,
+      port: 3333
     }
   }
 })
