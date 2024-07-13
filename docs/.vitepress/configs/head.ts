@@ -9,3 +9,4 @@ export const head: HeadConfig[] = [
   ['meta', { name: 'msapplication-TileImage', content: '/nav/favicon.ico' }],
   ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
 ]
+

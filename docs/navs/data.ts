@@ -482,7 +482,7 @@ export const NAV_DATA: NavData[] = [
         icon: 'https://nitro.unjs.io/icon.svg',
         title: 'Nitro',
         desc: '下一代服务器工具包。创建一个包含您所需的一切的Web服务器，并将其部署到您喜欢的任何位置。',
-        link: 'https://nitro.unjs.com/',
+        link: 'https://nitro.unjs.io/',
       },
       {
         icon: '/icons/hono.ico',
