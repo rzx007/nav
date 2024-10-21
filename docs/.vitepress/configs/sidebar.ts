@@ -47,7 +47,9 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: '利用延迟实现复杂动画', link: '/html-dom/annimation-by-delay' },
         { text: '3D卡片悬浮效果', link: '/html-dom/3D-hover-effect' },
         { text: '边框高亮效果', link: '/html-dom/border-highlight' },
-        { text: '并发任务控制', link: '/html-dom/retry-requests' }
+        { text: '并发任务控制', link: '/html-dom/retry-requests' },
+        { text: 'react避免`竞争条件`影响', link: '/html-dom/react-race-conditions' },
+        { text: '前端错误监控', link: '/html-dom/web-monittor' }
       ]
     },
     {
