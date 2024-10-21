@@ -91,6 +91,18 @@ export const NAV_DATA: NavData[] = [
         link: 'https://vueuse.org',
       },
       {
+        icon: '/icons/vuehooks.png',
+        title: 'VueHooks Plus',
+        desc: '高性能和简单性🧲 Vue 3 Hooks 库',
+        link: 'https://inhiblabcore.github.io/docs/hooks/',
+      },
+      {
+        icon: 'https://formkit.com/favicon.ico',
+        title: 'FormKit',
+        desc: '适用于 Vue 的 开源 表单框架,使开发人员能够以10倍的速度构建表单。',
+        link: 'https://formkit.com/zh',
+      },
+      {
         icon: 'https://element-plus.org/images/element-plus-logo-small.svg',
         title: 'Element Plus',
         desc: '基于 Vue 3，面向设计师和开发者的组件库',
@@ -144,12 +156,7 @@ export const NAV_DATA: NavData[] = [
         desc: '京东风格的轻量级移动端组件库',
         link: 'https://nutui.jd.com',
       },
-      {
-        icon: 'https://formkit.com/favicon.ico',
-        title: 'FormKit',
-        desc: '适用于 Vue 的 开源 表单框架,使开发人员能够以10倍的速度构建表单。',
-        link: 'https://formkit.com/zh',
-      },
+
     ],
   },
   {
@@ -312,10 +319,22 @@ export const NAV_DATA: NavData[] = [
         link: 'https://lodash.com/',
       },
       {
+        icon: 'https://es-toolkit.slash.page/logo_white.png',
+        title: 'es-toolkit',
+        desc: 'es-toolkit State-of-the-art JavaScript utility library',
+        link: 'https://es-toolkit.slash.page/',
+      },
+      {
         icon: 'https://oxism.com/trystero/images/favicon.png',
         title: 'Trystero',
         desc: '构建即时多人 Web 应用程序，无需服务器 — 通过 BitTorrent、Nostr、MQTT、IPFS 和 Firebase 进行 Magic WebRTC 匹配。',
         link: 'https://oxism.com/trystero/',
+      },
+      {
+        icon: 'https://docs.livekit.io/images/logo-small.svg',
+        title: 'LiveKit',
+        desc: 'End-to-end stack for WebRTC. SFU media server and SDKs.',
+        link: 'https://docs.livekit.io/home/',
       },
       {
         icon: '/icons/drag-and-drop.svg',
@@ -328,6 +347,12 @@ export const NAV_DATA: NavData[] = [
         title: 'Drag + Drop',
         desc: '一个小型的数据优先的拖拽库, 支持Vue,React和原生js',
         link: 'https://atlassian.design/components/pragmatic-drag-and-drop/',
+      },
+      {
+        icon: 'https://gridstackjs.com/logos/gridstack-logo-small.png',
+        title: 'Gridstack.js',
+        desc: '在几分钟内构建交互式仪表板',
+        link: 'https://gridstackjs.com/',
       },
       {
         icon: 'https://tanstack.com/_build/assets/logo-color-600w-Bx4vtR8J.png',
