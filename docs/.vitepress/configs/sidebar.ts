@@ -65,7 +65,9 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: '使用 vue 指令实现一个元素平滑上升的效果', link: '/html-dom/vue-slide-smooth' },
         { text: '创建一个简易的http-server', link: '/html-dom/create-http-server' },
         { text: '简单的svg转png', link: '/html-dom/convert-svg-to-png' },
-        { text: '手写Promise：实现符合Promises/A+规范的Promise', link: '/html-dom/Promise -A+' }
+        { text: '手写Promise：实现符合Promises/A+规范的Promise', link: '/html-dom/Promise -A+' },
+        { text: '使用OpenAI的Chat API实现一个聊天应用', link: '/html-dom/OpenAI-chat' },
+        { text: 'vue3 高阶组件', link: '/html-dom/Vue3-HOC' }
       ]
     }
   ],
