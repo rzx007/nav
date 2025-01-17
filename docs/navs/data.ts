@@ -229,6 +229,12 @@ export const NAV_DATA: NavData[] = [
         link: 'https://ui.shadcn.com/',
       },
       {
+        icon: 'https://originui.com/icon.svg?74bcc67f0350e7f2',
+        title: 'originui',
+        desc: '使用 Tailwind CSS 和 Next.js 构建的精美 UI 组件。',
+        link: 'https://originui.com/',
+      },
+      {
         icon: 'https://docs.pmnd.rs/apple-touch-icon.png',
         title: 'Zustand',
         desc: '一个小型、快速、可扩展的 React 状态管理解决方案',
@@ -277,7 +283,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://swiperjs.com/',
       },
       {
-        icon: 'https://auto-animate.formkit.com/assets/favicon.6d15a86f.ico',
+        icon: 'https://auto-animate.formkit.com/assets/favicon-BstHBk68.ico',
         title: 'AutoAnimate',
         desc: 'AutoAnimate 是一个零配置的插入式动画实用程序， React、Solid、Vue、Svelte 或任何其他框架。',
         link: 'https://auto-animate.formkit.com/',
@@ -355,7 +361,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://gridstackjs.com/',
       },
       {
-        icon: 'https://tanstack.com/_build/assets/logo-color-600w-Bx4vtR8J.png',
+        icon: 'https://tanstack.com/_build/assets/logo-color-100w-br5_Ikqp.png',
         title: 'TanStack',
         desc: "TanStack, '无头'(headless)工具集, 包括数据请求, Form, List, Table等工具, 支持React， Vue",
         link: 'https://tanstack.com/',
@@ -378,7 +384,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://svelte.dev',
       },
       {
-        icon: 'https://www.solidjs.com/assets/logo-123b04bc.svg',
+        icon: 'https://www.solidjs.com/img/favicons/apple-touch-icon.png',
         title: 'Solid',
         desc: '一个用于构建用户界面，简单高效、性能卓越的JavaScript库',
         link: 'https://www.solidjs.com/',
@@ -496,7 +502,7 @@ export const NAV_DATA: NavData[] = [
     title: 'CSS 相关',
     items: [
       {
-        icon: 'https://postcss.org/assets/logo-3e39b0aa.svg',
+        icon: 'https://postcss.org/assets/postcss-CsElRNOW.svg',
         title: 'PostCSS',
         desc: '一个用 JavaScript 转换 CSS 的工具',
         link: 'https://postcss.org',
