@@ -1,14 +1,13 @@
 {
   "compilerOptions": {
-    "outDir": "dist",
-    "target": "esnext",
-    "module": "esnext",
+    "target": "ESNext",
+    "module": "ESNext",
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "resolveJsonModule": true,
-    "allowJs": true,
-    "strict": true,
-    "jsx": "preserve"
+    "allowSyntheticDefaultImports": true
   },
-  "include": ["env.d.ts", "**/.vitepress/**/*"]
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
+  }
 }

@@ -3,6 +3,7 @@ import { useData, EnhanceAppContext } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import Comment from '../components/Comment.vue'
 
+import './styles/tailwind.css'
 import './styles/tailwind.postcss';
 import './styles/index.scss'
 

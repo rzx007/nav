@@ -9,7 +9,8 @@
     "build": "vitepress build docs",
     "build:github": "cross-env APP_BASE_PATH=/vitepress-nav/ vitepress build docs",
     "prepare": "husky install",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "gen": "node --loader ts-node/esm scripts/gen.ts"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   "devDependencies": {
     "@femm/prettier": "^1.1.0",
     "@mdit-vue/shared": "^0.12.1",
+    "@tailwindcss/postcss7-compat": "^2.2.17",
     "@types/escape-html": "^1.0.4",
     "@types/markdown-it": "^13.0.7",
     "@types/markdown-it-container": "^2.0.9",
@@ -35,7 +37,8 @@
     "sass": "^1.71.1",
     "tailwindcss": "^3.4.4",
     "vitepress": "1.0.0-rc.39",
-    "vue": "^3.4.21"
+    "vue": "^3.4.21",
+    "ts-node": "^10.9.1"
   },
   "prettier": "@femm/prettier",
   "lint-staged": {
@@ -44,6 +47,7 @@
     ]
   },
   "dependencies": {
+    "@inquirer/prompts": "^7.2.3",
     "escape-html": "^1.0.3",
     "markdown-it": "^13.0.2",
     "markdown-it-container": "^3.0.0",
