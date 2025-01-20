@@ -235,7 +235,19 @@ export const NAV_DATA: NavData[] = [
         link: 'https://originui.com/',
       },
       {
-        icon: 'https://docs.pmnd.rs/apple-touch-icon.png',
+        icon: 'https://magicui.design/icon.png',
+        title: 'Magic UI',
+        desc: '面向设计工程师的 UI 库。',
+        link: 'https://magicui.design/',
+      },
+      {
+        icon: 'https://ui.aceternity.com/favicon.ico',
+        title: 'Aceternity UI',
+        desc: '复制粘贴最流行的组件并在您的网站中使用它们，而无需担心样式和动画。。',
+        link: 'https://ui.aceternity.com/',
+      },
+      {
+        icon: 'https://raw.githubusercontent.com/pmndrs/zustand/main/docs/favicon.ico',
         title: 'Zustand',
         desc: '一个小型、快速、可扩展的 React 状态管理解决方案',
         link: 'https://docs.pmnd.rs/zustand/getting-started/introduction',
