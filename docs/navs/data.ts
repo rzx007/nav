@@ -156,6 +156,12 @@ export const NAV_DATA: NavData[] = [
         desc: '京东风格的轻量级移动端组件库',
         link: 'https://nutui.jd.com',
       },
+      {
+        icon: 'https://motion.unovue.com/logo.svg',
+        title: 'Motion Vue',
+        desc: '适用于现代 Web 应用程序的简单、强大且高性能的动画。Motion for Vue',
+        link: 'https://motion.unovue.com/',
+      },
 
     ],
   },
@@ -245,6 +251,12 @@ export const NAV_DATA: NavData[] = [
         title: 'Aceternity UI',
         desc: '复制粘贴最流行的组件并在您的网站中使用它们，而无需担心样式和动画。。',
         link: 'https://ui.aceternity.com/',
+      },
+      {
+        icon: 'https://motion-primitives.com/icon.ico',
+        title: 'motion-primitives',
+        desc: '设计精美的动作组件。轻松复制粘贴。定制。开源。专为工程师和设计师打造。',
+        link: 'https://motion-primitives.com/',
       },
       {
         icon: 'https://raw.githubusercontent.com/pmndrs/zustand/main/docs/favicon.ico',
