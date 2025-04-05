@@ -59,6 +59,10 @@
       {
         "text": "数组随机打乱",
         "link": "/html-dom/ts-shuffle.md"
+      },
+      {
+        "text": "文字浮雕效果",
+        "link": "/html-dom/text-emboss.md"
       }
     ]
   },
