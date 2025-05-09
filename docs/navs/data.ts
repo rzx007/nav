@@ -31,6 +31,11 @@ export const NAV_DATA: NavData[] = [
       },
       {
         icon: 'https://acd-assets.alicdn.com/acd_work/tongyi/favicon.ico',
+        title: 'Qwen',
+        link: 'https://chat.qwen.ai/',
+      },
+      {
+        icon: 'https://acd-assets.alicdn.com/acd_work/tongyi/favicon.ico',
         title: '阿里通义',
         link: 'https://tongyi.aliyun.com/',
       },
@@ -79,6 +84,12 @@ export const NAV_DATA: NavData[] = [
         link: 'https://pinia.vuejs.org/zh',
       },
       {
+        icon: 'https://pinia-colada.esm.dev/logo.svg',
+        title: 'Pinia Colada',
+        desc: 'Pinia Colada The Data Fetching layer for pinia',
+        link: 'https://pinia-colada.esm.dev/',
+      },
+      {
         icon: 'https://nuxt.com/icon.png',
         title: 'Nuxt.js',
         desc: '一个基于 Vue.js 的通用应用框架',
@@ -103,10 +114,40 @@ export const NAV_DATA: NavData[] = [
         link: 'https://formkit.com/zh',
       },
       {
-        icon: 'https://element-plus.org/images/element-plus-logo-small.svg',
-        title: 'Element Plus',
-        desc: '基于 Vue 3，面向设计师和开发者的组件库',
-        link: 'https://element-plus.org',
+        icon: 'https://vee-validate.logaretm.com/v4/logo.png',
+        title: 'VeeValidate',
+        desc: 'VeeValidate 是最受欢迎的 Vue.js 表单库。',
+        link: 'https://vee-validate.logaretm.com/v4/',
+      },
+      {
+        icon: 'https://motion.unovue.com/logo.svg',
+        title: 'Motion Vue',
+        desc: '适用于现代 Web 应用程序的简单、强大且高性能的动画。Motion for Vue',
+        link: 'https://motion.unovue.com/',
+      },
+      {
+        icon: 'https://tresjs.org/favicon.svg',
+        title: 'TresJS',
+        desc: '使用Vue打造精彩的3D体验',
+        link: 'https://tresjs.org/',
+      },
+      {
+        icon: 'https://vue-draggable-plus.pages.dev/logo.svg',
+        title: 'VueDraggablePlus',
+        desc: '支持 Vue2 和 Vue3 的拖拽组件',
+        link: 'https://vue-draggable-plus.pages.dev/',
+      },
+      {
+        icon: '/icons/Shacdn-vue.svg',
+        title: 'shadcn-vue',
+        desc: 'vue版本的shadcn/ui，设计精美的组件,你可以直接复制和粘贴到你的应用中。',
+        link: 'https://www.shadcn-vue.com/',
+      },
+      {
+        icon: 'https://inspira-ui.com/logo.svg',
+        title: 'Inspira UI',
+        desc: '使用Vue和Nuxt构建惊艳网站的开源组件',
+        link: 'https://inspira-ui.com/',
       },
       {
         icon: '/icons/naivelogo-XQ1U1Js8.svg',
@@ -115,10 +156,10 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.naiveui.com/zh-CN/os-theme',
       },
       {
-        icon: '/icons/Shacdn-vue.svg',
-        title: 'shadcn-vue',
-        desc: 'vue版本的shadcn/ui，设计精美的组件,你可以直接复制和粘贴到你的应用中。',
-        link: 'https://www.shadcn-vue.com/',
+        icon: 'https://element-plus.org/images/element-plus-logo-small.svg',
+        title: 'Element Plus',
+        desc: '基于 Vue 3，面向设计师和开发者的组件库',
+        link: 'https://element-plus.org',
       },
       {
         icon: 'https://www.antdv.com/assets/logo.1ef800a8.svg',
@@ -156,12 +197,7 @@ export const NAV_DATA: NavData[] = [
         desc: '京东风格的轻量级移动端组件库',
         link: 'https://nutui.jd.com',
       },
-      {
-        icon: 'https://motion.unovue.com/logo.svg',
-        title: 'Motion Vue',
-        desc: '适用于现代 Web 应用程序的简单、强大且高性能的动画。Motion for Vue',
-        link: 'https://motion.unovue.com/',
-      },
+
 
     ],
   },
@@ -181,7 +217,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://reactrouter.com',
       },
       {
-        icon: 'https://nextjs.org/static/favicon/safari-pinned-tab.svg',
+        icon: 'https://nextjs.org/favicon.ico',
         title: 'Next.js',
         desc: '一个用于 Web 的 React 框架',
         link: 'https://nextjs.org',
@@ -301,22 +337,34 @@ export const NAV_DATA: NavData[] = [
     title: '有意思的库',
     items: [
       {
+        icon: 'https://unjs.io/favicon.svg',
+        title: 'unjs',
+        desc: '框架无关的 JavaScript库、工具及实用程序，助力提升你的编码之旅。',
+        link: 'https://unjs.io/',
+      },
+      {
         icon: 'https://swiperjs.com/images/swiper-logo.svg',
         title: 'Swiper',
         desc: '最现代的移动触摸Swiper',
         link: 'https://swiperjs.com/',
       },
       {
-        icon: 'https://auto-animate.formkit.com/assets/favicon-BstHBk68.ico',
-        title: 'AutoAnimate',
-        desc: 'AutoAnimate 是一个零配置的插入式动画实用程序， React、Solid、Vue、Svelte 或任何其他框架。',
-        link: 'https://auto-animate.formkit.com/',
-      },
-      {
         icon: '/icons/gsap.png',
         title: 'GSAP',
         desc: '一个非常强大的 JavaScript 动画库。专为专业人士打造',
         link: 'https://gsap.com/',
+      },
+      {
+        icon: 'https://animejs.com/assets/images/favicon.png',
+        title: 'AnimeJS',
+        desc: '一个非常强大且灵活的 JavaScript 动画库。',
+        link: 'https://animejs.com/',
+      },
+      {
+        icon: 'https://auto-animate.formkit.com/assets/favicon-BstHBk68.ico',
+        title: 'AutoAnimate',
+        desc: 'AutoAnimate 是一个零配置的插入式动画实用程序， React、Solid、Vue、Svelte 或任何其他框架。',
+        link: 'https://auto-animate.formkit.com/',
       },
       {
         icon: 'https://www.langui.dev/favicon.ico',
@@ -349,9 +397,9 @@ export const NAV_DATA: NavData[] = [
         link: 'https://lodash.com/',
       },
       {
-        icon: 'https://es-toolkit.slash.page/logo_white.png',
+        icon: 'https://es-toolkit.slash.page/hero.webp',
         title: 'es-toolkit',
-        desc: 'es-toolkit State-of-the-art JavaScript utility library',
+        desc: 'es-toolkit 最先进的JavaScript工具库',
         link: 'https://es-toolkit.slash.page/',
       },
       {
