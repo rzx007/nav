@@ -438,6 +438,19 @@ export const NAV_DATA: NavData[] = [
         desc: "TanStack, '无头'(headless)工具集, 包括数据请求, Form, List, Table等工具, 支持React， Vue",
         link: 'https://tanstack.com/',
       },
+      {
+        icon: 'https://alpinejs.dev/favicon.png',
+        title: 'Alpine.js',
+        desc: '一个轻量级的JavaScript框架，用于构建用户界面，可以把它想象成现代网络版的 jQuery',
+        link: 'https://alpinejs.dev/',
+      },
+      // Basecoat
+      {
+        icon: 'https://basecoatui.com/assets/favicon.svg',
+        title: 'Basecoat',
+        desc: '一个 shadcn/ui 兼容的框架无关的的组件库，可与任何网络栈配合使用',
+        link: 'https://basecoatui.com/',
+      },
     ],
   },
   {
