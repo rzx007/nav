@@ -433,7 +433,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://gridstackjs.com/',
       },
       {
-        icon: 'https://tanstack.com/_build/assets/logo-color-100w-br5_Ikqp.png',
+        icon: 'https://tanstack.com/assets/splash-light-CHqMsyq8.png',
         title: 'TanStack',
         desc: "TanStack, '无头'(headless)工具集, 包括数据请求, Form, List, Table等工具, 支持React， Vue",
         link: 'https://tanstack.com/',
@@ -450,6 +450,12 @@ export const NAV_DATA: NavData[] = [
         title: 'Basecoat',
         desc: '一个 shadcn/ui 兼容的框架无关的的组件库，可与任何网络栈配合使用',
         link: 'https://basecoatui.com/',
+      },
+      {
+        icon: 'https://medium-zoom.francoischalifour.com/favicon.e36d4567.ico',
+        title: 'Medium Zoom',
+        desc: '一个用于像 Medium 那样缩放图片的 JavaScript 库',
+        link: 'https://medium-zoom.francoischalifour.com/',
       },
     ],
   },
