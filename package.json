@@ -32,13 +32,15 @@
     "cross-env": "^7.0.3",
     "husky": "^8.0.3",
     "lint-staged": "^13.3.0",
+    "mermaid": "^11.6.0",
     "postcss": "^8.4.39",
     "prettier": "^2.8.8",
     "sass": "^1.71.1",
     "tailwindcss": "^3.4.4",
+    "ts-node": "^10.9.1",
     "vitepress": "1.0.0-rc.39",
-    "vue": "^3.4.21",
-    "ts-node": "^10.9.1"
+    "vitepress-plugin-mermaid": "^2.0.17",
+    "vue": "^3.4.21"
   },
   "prettier": "@femm/prettier",
   "lint-staged": {

@@ -457,6 +457,12 @@ export const NAV_DATA: NavData[] = [
         desc: '一个用于像 Medium 那样缩放图片的 JavaScript 库',
         link: 'https://medium-zoom.francoischalifour.com/',
       },
+      {
+        icon: 'https://advanced-cropper.github.io/react-advanced-cropper/img/logo.svg',
+        title: 'Advanced Cropper',
+        desc: '支持React，Vue的功能丰富的图片裁剪库',
+        link: 'https://advanced-cropper.github.io/react-advanced-cropper/',
+      },
     ],
   },
   {

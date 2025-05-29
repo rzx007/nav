@@ -122,6 +122,10 @@
       {
         "text": "前端错误监控",
         "link": "/html-dom/web-monittor"
+      },
+      {
+        "text": "大文件分片上传",
+        "link": "/html-dom/Cut-And-HashFile"
       }
     ]
   },
