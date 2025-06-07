@@ -463,6 +463,12 @@ export const NAV_DATA: NavData[] = [
         desc: '支持React，Vue的功能丰富的图片裁剪库',
         link: 'https://advanced-cropper.github.io/react-advanced-cropper/',
       },
+      {
+        icon: 'https://avatars.githubusercontent.com/u/21332676?s=200&v=4',
+        title: 'unified',
+        desc: '以结构化数据形式呈现的内容，为 @remarkjs、@rehypejs、@retextjs 以及 @redotjs 提供支持，用于构建诸如 @mdx-js、@prettier、@gatsbyjs 等诸多项目！',
+        link: 'https://unifiedjs.com/',
+      },
     ],
   },
   {
