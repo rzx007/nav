@@ -181,6 +181,9 @@
       {
         "text": "vue3 高阶组件",
         "link": "/html-dom/Vue3-HOC"
+      },{
+        "text": "Vue3 远程加载组件",
+        "link": "/html-dom/Vue3-Remote-Component"
       }
     ]
   }

@@ -10,7 +10,7 @@
 
 HOC 使用场景就是`加强原组件`。
 
-HOC 实际就是一个函数，这个函数接收的参数就是一个组件，并且返回一个组件，返回的就是加强后组件。如下图： ![Image 12: hoc](https://p9-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/26c4ef37f577408e9ce001f2aeba1c68~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5YmN56uv5qyn6Ziz:q75.awebp?rk3s=f64ab15b&x-expires=1736753859&x-signature=INhbV8PZR0O94%2B%2BAKrmugQjulb0%3D)
+HOC 实际就是一个函数，这个函数接收的参数就是一个组件，并且返回一个组件，返回的就是加强后组件。如下图： ![Image 12: hoc](/vue-hoc1.webp)
 
 在`Composition API`出现之前 HOC 还有一个常见的使用场景就是提取公共逻辑，但是有了`Composition API`后这种场景就无需使用 HOC 了。
 
@@ -53,7 +53,7 @@ HOC 的一个用途就是对组件进行增强，并且不会入侵原有组件�
 
 首先我们要明白 Vue 的组件经过编译后就是一个对象，对象中的`props`属性对应的就是我们写的`defineProps`。对象中的 setup 方法，对应的就是我们熟知的`<script setup>`语法糖。
 
-比如我使用`console.log(Block1)`将上面的`import Block1 from "./block1.vue";`给打印出来，如下图： ![Image 13: console](https://p9-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/2d15f0a80af2402381d82a94e8a510d9~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5YmN56uv5qyn6Ziz:q75.awebp?rk3s=f64ab15b&x-expires=1736753859&x-signature=ZwfL566oKMLWtjZf%2Fti68%2FvaXtE%3D)
+比如我使用`console.log(Block1)`将上面的`import Block1 from "./block1.vue";`给打印出来，如下图： ![Image 13: console](/vue-hoc2.webp)
 
 这个就是我们引入的 Vue 组件对象。
 
@@ -187,7 +187,7 @@ export default function WithVip(BaseComponent: any) {
 
 插槽的本质就是一个对象里面拥有多个方法，这些方法的名称就是每个具名插槽，每个方法的参数就是插槽传递的变量。这里我们只需要执行`h`函数时将`slots`对象传给 h 函数，就能实现插槽的透传（如果你看不懂这句话，那就等欧阳下篇插槽的文章写好后再来看这段话你就懂了）。
 
-我们在控制台中来看看传入的`slots`插槽对象，如下图： ![Image 14: slots](https://p9-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/1d7737a647984332b21d4c608517c288~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5YmN56uv5qyn6Ziz:q75.awebp?rk3s=f64ab15b&x-expires=1736753859&x-signature=tTX1t5iPEEsZkfsZzheUh9kC638%3D)
+我们在控制台中来看看传入的`slots`插槽对象，如下图： ![Image 14: slots](/vue-hoc3.webp)
 
 从上面可以看到插槽对象中有两个方法，分别是`default`和`footer`，对应的就是默认插槽和 footer 插槽。
 
