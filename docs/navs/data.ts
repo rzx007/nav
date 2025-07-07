@@ -469,6 +469,12 @@ export const NAV_DATA: NavData[] = [
         desc: '以结构化数据形式呈现的内容，为 @remarkjs、@rehypejs、@retextjs 以及 @redotjs 提供支持，用于构建诸如 @mdx-js、@prettier、@gatsbyjs 等诸多项目！',
         link: 'https://unifiedjs.com/',
       },
+      {
+        icon: 'https://github.com/fluidicon.png',
+        title: 'SnapDOM',
+        desc: '成熟高效的 DOM 转图像工具，能够将任意 HTML 元素转换为可缩放的 SVG 图像，完整保留样式、字体、背景图等所有视觉特性 等诸多项目！',
+        link: 'https://zumerlab.github.io/snapdom/',
+      },
     ],
   },
   {
