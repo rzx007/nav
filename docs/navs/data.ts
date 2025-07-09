@@ -464,6 +464,12 @@ export const NAV_DATA: NavData[] = [
         link: 'https://advanced-cropper.github.io/react-advanced-cropper/',
       },
       {
+        icon: 'https://pqina.nl/filepond/static/assets/filepond-logo.svg',
+        title: 'filepond',
+        desc: '一个 javaScript 库，它可以上传任何你扔给它的东西，优化图像以实现更快的上传速度，并提供出色、便捷且如丝般顺滑的用户体验。',
+        link: 'https://pqina.nl/filepond/',
+      },
+      {
         icon: 'https://avatars.githubusercontent.com/u/21332676?s=200&v=4',
         title: 'unified',
         desc: '以结构化数据形式呈现的内容，为 @remarkjs、@rehypejs、@retextjs 以及 @redotjs 提供支持，用于构建诸如 @mdx-js、@prettier、@gatsbyjs 等诸多项目！',
