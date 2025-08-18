@@ -481,6 +481,24 @@ export const NAV_DATA: NavData[] = [
         desc: '成熟高效的 DOM 转图像工具，能够将任意 HTML 元素转换为可缩放的 SVG 图像，完整保留样式、字体、背景图等所有视觉特性 等诸多项目！',
         link: 'https://zumerlab.github.io/snapdom/',
       },
+      {
+        icon: 'https://www.embedpdf.com/favicon.ico',
+        title: 'EmbedPDF',
+        desc: '一款轻量级、可定制的PDF查看器，能与任何JavaScript项目无缝协作。无需依赖项，轻松无忧。',
+        link: 'https://www.embedpdf.com/',
+      },
+      {
+        icon: 'https://avatars.githubusercontent.com/u/14985020?s=48&v=4',
+        title: 'BIDC',
+        desc: 'JavaScript双向通道。',
+        link: 'https://github.com/vercel/bidc',
+      },
+      {
+        icon: 'https://gunshi.dev/symbol.png',
+        title: 'Gunshi',
+        desc: '现代JavaScript,健壮、模块化、灵活且可本地化的命令行界面库',
+        link: 'https://gunshi.dev/',
+      },
     ],
   },
   {
